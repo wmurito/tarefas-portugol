@@ -19,16 +19,16 @@ programa
 
 		se (sexo == "M" e idade >= 30){
 			salarioLiquido = salarioFixo + 100
-			escreva("Funcionario(a) ", nome," seu salario liquido sera de: ", salarioLiquido) 
+			escreva("Funcionario(a) ", nome," seu salario liquido será de: ", salarioLiquido) 
 		}senao se (sexo == "M" e idade < 30){
 			salarioLiquido = salarioFixo + 50
-			escreva("Funcionario(a) ", nome," seu salario liquido sera de: ", salarioLiquido) 
+			escreva("Funcionario(a) ", nome," seu salario liquido será de: ", salarioLiquido) 
 		}se (sexo == "F" e idade >= 30){
 			salarioLiquido = salarioFixo + 200
-			escreva("Funcionario(a) ", nome," seu salario liquido sera de: ", salarioLiquido) 
+			escreva("Funcionario(a) ", nome," seu salario liquido será de: ", salarioLiquido) 
 		}senao se (sexo == "F" e idade < 30){
 			salarioLiquido = salarioFixo + 80
-			escreva("Funcionario(a) ", nome," seu salario liquido sera de: ", salarioLiquido) 
+			escreva("Funcionario(a) ", nome," seu salario liquido será de: ", salarioLiquido) 
 		}
 	}
 }
@@ -37,7 +37,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 992; 
+ * @POSICAO-CURSOR = 572; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

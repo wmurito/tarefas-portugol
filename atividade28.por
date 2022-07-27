@@ -20,10 +20,10 @@ programa {
 		       
 		       se (salario < 3900){
 		           salarioNovo = salario + (salario*0.50)
-		           escreva ("O salario novo vai ser de ", salarioNovo)
+		           escreva ("O funcionario ",nome," vai ter o salario de ", salarioNovo) 
 		       }senao se (salario >= 3900 e salario < 13000){
 		           salarioNovo = salario + (salario*0.20)
-		           escreva ("O salario novo vai ser de ", salarioNovo)
+		           escreva ("O funcionario ",nome," vai ter o salario de ", salarioNovo) 
 		       }senao se (salario >= 13000 e salario < 26000){
 		           salarioNovo = salario + (salario*0.50)
 		           escreva ("O funcionario ",nome," vai ter o salario de ", salarioNovo)         
@@ -31,13 +31,16 @@ programa {
 		           salarioNovo = salario + (salario*0.10)
 		           escreva ("O funcionario ",nome," vai ter o salario de ", salarioNovo)      
             }
+            escreva("\nA empresa vai aumentar sua folha salarial em: ", salarioNovo-salario)
+            escreva("\nc")
     }
+}
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1591; 
+ * @POSICAO-CURSOR = 611; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

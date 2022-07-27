@@ -2,28 +2,34 @@
 programa{
   
   funcao inicio(){
-    inteiro num
-    
+    inteiro num, cont=1 
+
+	
+    enquanto (cont <=10000){
     escreva("Digite um número inteiro positivo: ")
     leia(num)
-	
     se (num <0){
-    	escreva("Numero Negativo")
+    	escreva("Numero Negativo\n")
+    	cont ++
     }
     senao se(num > 1){
       escreva("Numero Positivo \n")
+      cont++
     }
     senao se (num == 0)
       escreva("O numero é zero\n")
+      cont++
     }
+   
   }
+}
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 398; 
+ * @POSICAO-CURSOR = 306; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -13,7 +13,7 @@ programa
 		real precoCusto, precoVenda, mediaCusto, mediaVenda, mediaLucro, somaCusto = 0.0 
 		real somaVenda = 0.0, lucroCusto = 0.0, lucroVenda = 0.0
 		real mediaLucroC, mediaLucroV, lucro = 0.0
-		enquanto(cont <= 5) 
+		enquanto(cont <= 40) 
 		{
 			limpa()
 			escreva("Digite o preço de custo ", cont, "º produto: ")
@@ -49,15 +49,14 @@ programa
 		}
 		
 
-	}
-		
+	}		
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1655; 
+ * @POSICAO-CURSOR = 504; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

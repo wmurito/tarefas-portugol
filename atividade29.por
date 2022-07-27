@@ -31,7 +31,7 @@ programa {
 		    pare
 		    caso 12: escreva("\nDezembro\n")
 		    pare
-
+		    caso contrario: escreva("Mês invalido")
 		   
 		}
 	}
@@ -42,7 +42,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 835; 
+ * @POSICAO-CURSOR = 864; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

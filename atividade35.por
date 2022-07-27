@@ -11,20 +11,18 @@ programa
 	funcao inicio()
 	{
 			real idade
-			escreva ( "Digite a idade do nadador: \n " )
+			escreva ( "Digite a idade do nadador: " )
 			leia (idade)
-			se (( idade < 5) ou ( idade > 99 )){
-				escreva ( " Idade inválida \n." )
-			}senao se (( idade >= 5 ) e ( idade < 8 )){
-				escreva ( " Idade na categoria infantil A. \n" )
+			se (( idade >= 5 ) e ( idade < 8 )){
+				escreva ( "Categoria Infantil A. \n" )
 			}senao se (( idade >= 8 ) e ( idade < 11 )){
-				escreva (" Idade na categoria infantil B. \n")
+				escreva ("Categoria Infantil B. \n")
 			}senao se (( idade >= 11 ) e ( idade < 14 )){
-				escreva (" Idade na categoria juvenil A. \n")
+				escreva ("Categoria Juvenil A. \n")
 			}senao se (( idade >= 14 ) e ( idade < 18 )){
-				escreva (" Idade na categoria juvenil B. \n")
+				escreva ("Categoria Juvenil B. \n")
 			}senao se (( idade >=18 ) e ( idade <=25 )) {
-				escreva (" Idade na categoria Senior. \n")
+				escreva ("Categoria Senior. \n")
 			}senao {
 				escreva ("Idade fora da faixa etária")
 			}
@@ -40,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 981; 
+ * @POSICAO-CURSOR = 812; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

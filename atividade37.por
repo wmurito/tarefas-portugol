@@ -21,7 +21,7 @@ programa
 			}
 		}enquanto (x == 1)
 		
-		escreva("Digite a altura: ")
+		escreva("Digite a altura em metros: ")
 		leia(altura)
 		escreva("Digite a idade: ")
 		leia(idade)
@@ -55,8 +55,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 191; 
+ * @POSICAO-CURSOR = 391; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

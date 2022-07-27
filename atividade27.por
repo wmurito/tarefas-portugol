@@ -5,7 +5,6 @@ Com valor do veículo zero encerra entrada de dados.
 Informe total de desconto e total pago pelos clientes. */
 programa
 {
-	
 	funcao inicio()
 	{
 		real valorVeiculo, valorDesconto, valorPago
@@ -35,10 +34,7 @@ programa
 			escreva("O total de desconto foi ", valorVeiculo*0.14," \nO valor pago pelo cliente sera: ", valorPago)
 			caso contrario : escreva ("Escolha um tipo valido")
 
-			
-		}
-
-		
+		}		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -46,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1450; 
+ * @POSICAO-CURSOR = 1028; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

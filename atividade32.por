@@ -1,6 +1,6 @@
 /*Dados três valores A, B e C, em que A e B são números reais e C é um caractere, pede-se para imprimir o resultado
-da operação de A por B se C for um símbolo de operador aritmético; caso contrário deve ser impresso uma
-mensagem de operador não definido. Tratar erro de divisão por zero.*/
+da operação de A por B se C for um símbolo de Caritmético; caso contrário deve ser impresso uma
+mensagem de Cnão definido. Tratar erro de divisão por zero.*/
 
 //
 
@@ -8,36 +8,35 @@ programa
 {
 	funcao inicio()
 	{
-		caracter operador 
-		real resultado = 0.0, num1, num2
+		caracter C
+		real resultado = 0.0, A, B
 		escreva("Digite o primeiro número: ")
-		leia(num1)
+		leia(A)
 		escreva("Digite o segundo número: ")
-		leia(num2)	
+		leia(B)	
 		escreva("\n Agora digite uma das operações ( + - * / ): ")
-		leia(operador)
+		leia(C)
 		
-		se (operador == '+')
+		se (C== '+')
 		{
-			resultado = num1 + num2		
+			resultado = A + B		
 		}
-		senao  se(operador == '-')
+		senao  se(C== '-')
 		{
-			resultado = num1 - num2	
+			resultado = A - B	
 		}
-		senao se(operador == '/')
+		senao se(C== '/')
 		{    
-			resultado = num1 / num2	
+			resultado = A / B	
 		}
-		senao se(operador == '*')
+		senao se(C== '*')
 		{
-			resultado = num1 * num2
+			resultado = A * B
 		}senao {escreva("Operação invalida")}	
 
-		
 		limpa()
 		escreva("Resultado:\n\n")
-		escreva(num1, " ", operador, " ", num2, " = ", resultado)
+		escreva(A, " ", C, " ", B, " = ", resultado)
 		escreva("\n")
 	}
 }
@@ -46,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 720; 
+ * @POSICAO-CURSOR = 596; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
